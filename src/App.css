@@ -1,0 +1,7 @@
+.body {
+  margin: 8px;
+}
+.alert-danger {
+  position: absolute !important;
+  top: 80px;
+}
