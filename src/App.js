@@ -14,7 +14,7 @@ function App() {
             <Link className="nav-link font-weight-bold text-black-50" to="/favorites">Favourites</Link>
           </nav>
           <Switch> 
-            <Route exact path='/home' component={MovieSearch}></Route> 
+            <Route exact path='/' component={MovieSearch}></Route> 
             <Route exact path='/favorites' component={Favourites}></Route> 
           </Switch> 
         </div> 
