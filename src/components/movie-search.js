@@ -16,7 +16,7 @@ class MovieSearch extends Component {
   }
   getData = (e) => {
     e.preventDefault();
-    let url = "http://www.omdbapi.com/?apikey=4551086f&t=" + this.state.title + "&type=" + this.state.type;
+    let url = "https://www.omdbapi.com/?apikey=4551086f&t=" + this.state.title + "&type=" + this.state.type;
     console.log(url);
     fetch(`${url}`)
       .then(response => response.json())
